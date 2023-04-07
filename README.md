@@ -29,7 +29,7 @@ mysql> alter table biodata modify column id char (11);
 # 7. Ubah nama kolom phone menjadi hp (varchar 20)!
 mysql> alter table biodata change column phone hp varchar(20);
 mysql> desc biodata;
-![gambar1](Ss-Output-Data-Mahasiswa/Screenshot%20(59)2.png)
+![gambar1](Ss-Output-Data-Mahasiswa/Screenshot%20(60)1.png)
 
 # 8. Tambahkan kolom email setelah kolom hp!
 mysql> alter table biodata add column email varchar(11) after hp;
